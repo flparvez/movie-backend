@@ -139,8 +139,9 @@ if (redirect) {
     setSlug(newSlug);
   };
 
-  const categories = ["Bollywood","Hollywood","South","Marvel_Studio","Turkie","Tv_Show","Web_Series",]
 
+const genres =['Action','Adventure','Romance','Comedy','Horror','Thriller','Science_Fiction']
+  const categories = ["Bollywood","Hollywood","South","Marvel_Studio","Turkie","Tv_Show","Web_Series",]
   return (
     <>
       <Head>
@@ -265,7 +266,7 @@ if (redirect) {
                   }
                   onClick={() => toggleInputVisibility("480p")}
                 >
-                  {showInputs["480p"] ? "Hide 480p" : "Show 480p"}
+                  {showInputs["480p"] ? "Hide Terabox Link" : "Show Terabox Link"}
                 </div>
 
                 <div
@@ -510,7 +511,7 @@ if (redirect) {
 
               <div className="w-50 flex  flex-col  flex-left  mb-2">
                 <label>Movie Genre:</label>
-                { ['Action','Adventure','Romance','Comedy','Horror','Thriller','Science_Fiction'].map((genreoption) => (
+                { genres.map((genreoption) => (
                     <label key={genreoption} className="flex gap-05">
                          <input
                       type="checkbox"
