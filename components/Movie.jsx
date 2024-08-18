@@ -140,7 +140,7 @@ if (redirect) {
   };
 
 
-const genres =['Action','Adventure','Romance','Comedy','Horror','Thriller','Science_Fiction']
+const genres =['Action','Adventure','Romance','Comedy','Horror','Thriller','Science_Fiction','bangla']
   const categories = ["Bollywood","Hollywood","South","Marvel_Studio","Turkie","Tv_Show","Web_Series",]
   return (
     <>
