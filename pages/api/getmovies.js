@@ -1,8 +1,11 @@
 
+
 import { mongooseConnect } from "@/lib/mongoose";
 import { Movie } from "@/models/Movie";
 
 // Api For Fetching Data
+
+
 export default async function handle(req, res) {
   // If Authenticated, connect to mongoDB
   await mongooseConnect();

@@ -21,6 +21,8 @@
     "react-icons": "^5.2.1"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.2"
+    "@cloudflare/next-on-pages": "^1.13.2",
+    "vercel": "^36.0.0",
+    "wrangler": "^3.72.0"
   }
 }
