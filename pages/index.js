@@ -11,6 +11,7 @@ import { RiDraftLine } from "react-icons/ri";
 import Spinner from "@/components/Spinner";
 import { FcRating } from "react-icons/fc";
 
+export const runtime = "edge"
 export default function Home() {
 
  
