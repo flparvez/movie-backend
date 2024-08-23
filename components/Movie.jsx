@@ -284,7 +284,7 @@ const genres =['Action','Adventure','Romance','Comedy','Horror','Thriller','Scie
                   }
                   onClick={() => toggleInputVisibility("1080p")}
                 >
-                  {showInputs["1080p"] ? "Hide 1080p" : "Show 1080p"}
+                  {showInputs["1080p"] ? "Hide Bangla Dubbed" : "Show Bangla Dubbed"}
                 </div>
 
                 <div
